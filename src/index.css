@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 
-/* body {
-  @apply bg-slate-950;
-} */
+body {
+  @apply bg-yellow-400;
+}
