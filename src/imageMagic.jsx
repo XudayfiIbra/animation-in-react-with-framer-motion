@@ -2,6 +2,7 @@ import { useAnimate } from "framer-motion";
 import React, { useRef } from "react";
 import { FiMousePointer } from "react-icons/fi";
 
+
 export const Example = () => {
   return (
     <MouseImageTrail

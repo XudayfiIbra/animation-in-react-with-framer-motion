@@ -4,7 +4,6 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const SlideInNotifications = () => {
   const [notifications, setNotifications] = useState([]);
-
   const removeNotif = (id) => {
     setNotifications((pv) => pv.filter((n) => n.id !== id));
   };
