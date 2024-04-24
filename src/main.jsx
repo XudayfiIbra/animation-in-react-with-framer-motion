@@ -7,9 +7,10 @@ import Center from './center.jsx'
 import ExampleWrapper from './ModelTest.jsx'
 import SlideInNotifications from './Notivication.jsx'
 import { Example } from './imageMagic.jsx'
+import BubbleText from './components/bubletext.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 
-    <Example />
+    <BubbleText />
 
 )
